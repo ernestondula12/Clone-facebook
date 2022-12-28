@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background-color: #f0f2f5;
+}
+
+.container {
+
+    display: flex;
+    margin: 90px auto;
+    max-width: 1280px;
+    
+}
+
+.logo{
+
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.logo img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.caixa-login h3{
+
+    text-align: center;
+}
+
+.caixa-login-usuarios{
+
+    display: flex;
+    max-width: 500px;
+    margin: 10px auto;
+    justify-content: space-evenly;
+
+}
+
+.caixa-login-usuario-singular{
+    /*
+    width: 31%;
+    margin-right: 2%;
+    */
+
+    margin: 0 12px;
+}
+
+.caixa-login-usuario-singular img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+
+.caixa-login-usuario-singular p{
+
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    background-color: white;
+    padding: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.caixa-login-usuario-singular{
+
+    position: relative;
+}
+
+.caixa-usuario-fechamento{
+
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.caixa-usuario-fechamento span{
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4 );
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.caixa-login-usuario-singular:hover .caixa-usuario-fechamento{
+
+    transform: scale(1.5,1.5);
+}
+
+.caixa-form {
+
+    margin: 40px auto;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caixa-form input[type=email], .caixa-form input[type=password]{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.caixa-form input[type=submit]{
+
+    background-color: #1877f2;
+    border: 0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a.esqueceu-senha {
+
+    color: #1877f2;
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a.criar-conta{
+
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    background-color: #42b72a;
+    border: 0;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
