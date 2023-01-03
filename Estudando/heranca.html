@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercitando Herança e Especificidade</title>
+	<style>
+
+		body {
+
+			font-size: 16px;
+			color: blue;
+			/*background: blue;*/
+		}
+
+		.postagem p {
+
+			color: red !important;
+		}
+
+		.postagem p {
+
+			color: blue;
+		}
+
+		h2.verde {
+
+			color: green;
+		}
+
+		h2#amarelo{
+
+			color: yellow;
+		} 
+
+
+	</style>
+</head>
+<body>
+
+	<div id="pagina">
+		<ul>
+			<li>
+				<a href="">Home</a>
+			</li>
+			<li>
+				<a href="">Sobre</a>
+			</li>
+			<li>
+				<a href="">Contanto</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="conteudo-principal">
+		
+		<div class="postagem">
+			<h1>Tudo Sobre Ganhar na Internet</h1>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="" alt="Imagem ilustrativa">
+			<a href="">Leia mais...</a>
+		</div>
+
+		<h2 class="verde" id="amarelo">O Mercado de TI esta forte e em alta</h2>
+
+	</div>
+
+</body>
+</html>
