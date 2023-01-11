@@ -1,0 +1,12 @@
+  /*Barra de navegação Horizontal*/
+
+  ul {
+
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 720px;
+    background: #269cb0;
+    float: left;
+  }
