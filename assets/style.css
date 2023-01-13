@@ -124,7 +124,7 @@ body{
     margin-bottom: 10px;
 }
 
-.caixa-form input[type=submit]{
+.caixa-form button[type=submit]{
 
     background-color: #1877f2;
     border: 0;
@@ -135,6 +135,12 @@ body{
     font-weight: bold;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.caixa-form button a {
+
+    text-decoration: none;
+    color: white;
 }
 
 a.esqueceu-senha {

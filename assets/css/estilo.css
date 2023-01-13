@@ -134,6 +134,7 @@ nav {
     padding: 20px;
     border-radius: 4px;
     color: #626262;
+    z-index: 2;
 }
 
 .main-content {
